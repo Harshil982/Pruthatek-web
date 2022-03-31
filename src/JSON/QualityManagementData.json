@@ -1,0 +1,17 @@
+[
+    {
+        "imgPath" :"./../requireImages/CardImg.png",
+        "title" : "Quality Planning",
+        "desc" :"Terms are isolated  across different locations.Some teams may not be using Agile."
+    },
+    {
+        "imgPath" :"./../requireImages/CardImg.png",
+        "title" : "Quality Assurance",
+        "desc" :"Terms are isolated  across different locations.Some teams may not be using Agile."
+    },
+    {
+        "imgPath" :"./../requireImages/CardImg.png",
+        "title" : "Quality Control",
+        "desc" :"Terms are isolated  across different locations.Some teams may not be using Agile."
+    }
+]

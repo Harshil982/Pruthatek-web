@@ -1,0 +1,98 @@
+.flexibility
+{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75vw;
+    margin: 2vw auto;
+    padding-bottom: 26vw;
+    text-transform: capitalize;
+}
+.pruthatek-FTM
+{
+    width: 100%;
+    padding-bottom: 3vw;
+    background-color: #efa706;
+    position: relative;
+}
+.pruthatek-FTM .img-cont
+{
+    width: 75vw;
+    height: 35vw;
+    position: absolute;
+    top: -25vw;
+    left: calc(50% - 37.5vw);
+    border-radius: 3vw;
+    padding: 2vw;
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.pruthatek-FTM .img-cont img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 3vw;
+}
+.FTM-flex
+{
+    padding-top: 17vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0vw 6vw;
+}
+.FTM-flex div
+{
+    width: 26vw;
+}
+.FTM-flex div h1
+{
+    margin-bottom: 16px;
+    font-size: 1.8vw;
+}
+.FTM-flex div p
+{
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1vw;
+}
+@media only screen and (max-width: 768px)
+{
+    .FTM-flex
+    {
+        padding-top: 20vw;
+    }
+    .FTM-flex div h1
+    {
+        font-size: 2vw;
+    }
+    .FTM-flex div p
+    {
+        font-size: 1.2vw;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .FTM-flex div
+    {
+        width: 60vw;
+        margin-left: calc(50% - 35vw);
+        margin-bottom: 4vw;
+    }
+    .FTM-flex div h1
+    {
+        font-size: 2.7vw;
+        margin-bottom: 1vw;
+    }
+    .FTM-flex div p
+    {
+        font-size: 1.6vw;
+    }
+}

@@ -1,0 +1,305 @@
+.qulty-mngmnt
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.qulty-mngmnt-title
+{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 2.4vw;
+}
+.qulty-desc
+{
+    width: 75vw;
+    text-align: center;
+    margin: 1.3vw auto;
+    color: rgb(56, 48, 48);
+    font-size: 1.1vw;
+}
+.margin
+{
+    margin-top: 5vw;
+}
+.flex-container
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.company_people-img-cont
+{
+    height: 17vw;
+    width: 17vw;
+    padding: 2vw;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 2vw;
+    z-index: 10;
+}
+.shadow
+{
+    height: 17vw;
+    width: 17vw;
+    padding: 2vw;
+    border-radius: 2vw;
+    top: 8vw;
+    left: 10vw;
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+}
+.company_people-img
+{
+    height: 17vw;
+    width: 17vw;
+}
+.company_people-img img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 2vw;
+}
+.QMA-tasks
+{
+    width: 25vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 6vw;
+}
+.QMA-tasks h2
+{
+    font-size: 1.7vw;
+}
+.QMA-tasks p
+{
+    font-size: 1.1vw;
+    margin-top: 2vw
+}
+.margin-cont
+{
+    margin: 5vw 2vw;
+}
+/* Comprehensive Approach */
+.Comprehensive-title
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10vw;
+    font-size: 1.7vw;
+}
+.bubble-1
+{
+    position: absolute;
+    top: -12vw;
+    right: -34vw;
+    height: 49vw !important;
+    width: 49vw !important;
+}
+/* ending */
+.qulaity-mng-ending-desc
+{
+    margin-top: 2.5vw;
+}
+.qulaity-mng-ending
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.qulaity-mng-ending .title
+{
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 1.7vw;
+}
+.qulaity-mng-ending-flex
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3vw 8vw;
+}
+.qulaity-mng-ending-flex .image-cont
+{
+    height: 26vw;
+    width: 35vw;
+    padding: 2vw;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 15px;
+}
+.qulaity-mng-ending-flex .image-cont img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.qulaity-mng-ending-desc .individual-desc
+{
+    margin-bottom: 2vw;
+    font-size: 1.1vw;
+}
+.qulaity-mng-ending-desc .individual-desc p:first-child
+{
+    font-weight: 700;
+}
+.qulaity-mng-ending-desc .individual-desc p:last-child
+{
+    margin-top: 1.2vw;
+    margin-left: 1vw;
+    width: 25vw;
+    margin-right: 10vw;
+}
+@media only screen and (max-width: 1024px)
+{
+    .qulty-desc
+    {
+        font-size: 1.3vw;
+    }
+    .QMA-tasks
+    {
+        width: 29vw;
+        margin-right: 5vw;
+    }
+    .QMA-tasks p
+    {
+        font-size: 1.4vw;
+    }
+    .Comprehensive-title
+    {
+        font-size: 2vw;
+    }
+    .qulaity-mng-ending .title
+    {
+        font-size: 2vw;
+        margin-top: 3vw;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .QMA-tasks
+    {
+        width: 36vw;
+        margin-right: 0vw;
+    }
+    .QMA-tasks h2
+    {
+        font-size: 2vw;
+    }
+    .QMA-tasks p
+    {
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .qulaity-mng-ending .title
+    {
+        font-size: 2.2vw;
+        margin-top: 8vw;
+    }
+    .qulty-desc
+    {
+        font-size: 1.5vw
+    }
+    .qulaity-mng-ending-flex .image-cont
+    {
+        width: 50vw;
+        margin: 2vw auto;
+    }
+    .qulaity-mng-ending-desc .individual-desc
+    {
+        font-size: 2vw;
+        margin-left: calc(50% - 36vw);
+        margin-top: 5vw;
+    }
+    .qulaity-mng-ending-desc .individual-desc p:last-child
+    {
+        width: 72vw;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .qulty-mngmnt-title
+    {
+        font-size: 3.5vw;
+    }
+    .Comprehensive-title
+    {
+        font-size: 4vw;
+    }
+    .qulty-desc
+    {
+        font-size: 2.2vw;
+    }
+    .company_people-img-cont
+    {
+        height: 29vw;
+        width: 29vw;
+        padding: 3vw;
+        margin-left: calc(50% - 19vw);
+    }
+    .company_people-img
+    {
+        height: 29vw;
+        width: 29vw;
+    }
+    .shadow
+    {
+        height: 29vw;
+        width: 29vw;
+    }
+    .flex-container
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .QMA-tasks
+    {
+        margin-top: 15vw;
+        width: 74vw;
+        margin-left: calc(50% - 37vw);
+    }
+    .QMA-tasks h2
+    {
+        font-size: 3.2vw;
+    }
+    .QMA-tasks p
+    {
+        font-size: 2.5vw;
+    }
+    .qulaity-mng-ending .title
+    {
+        font-size: 3.2vw;
+        margin-top: 8vw;
+    }
+    .qulty-desc
+    {
+        font-size: 1.8vw
+    }
+    .qulaity-mng-ending-flex .image-cont
+    {
+        width: 70vw;
+        height: 50vw;
+        margin: 2vw auto;
+    }
+    .qulaity-mng-ending-desc .individual-desc
+    {
+        font-size: 2.3vw;
+        margin-left: calc(50% - 36vw);
+        margin-top: 5vw;
+    }
+    .qulaity-mng-ending-desc .individual-desc p:last-child
+    {
+        width: 72vw;
+        margin-left: 2.4vw;
+    }
+}
