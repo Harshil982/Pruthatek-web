@@ -1,13 +1,38 @@
 import React from 'react';
 import './../Styles/QualityManagement.css'
-import companyPeople from './../requireImages/company_people.jfif'
 import CommonCard from './CommonCard';
 import data from './../JSON/QualityManagementData.json'
-import Pic from "./../requireImages/qulty_mngmnt_ending.jfif"
-import {BsFillCaretRightFill} from 'react-icons/bs'
+import MainInfo from './MainInfo';
+import EndingInfo from './EndingInfo';
 
 function QualityManagement(props) {
     document.title = "Quality Management"
+    const mainInfoData = {
+        title: "QMS TASKS & OBJECTIVES",
+        Desc: ["Elaboration and Implementation of procedures and regulations for software development process based on industrial standards  and besst practices.", "Product lifecycle monitoring to ensure compliance with established processes and guidlines.", "Product Quality verification and validation to ensure that it complies with clients business need and expectations.", "Establishment of an effective collaboration between all project team members."]
+    }
+
+    const FootInfo = {
+        title: "Qa That is Weaved into The Devel Opment Lifecycle",
+        titleDesc: "Pruthatek performs quality assurance throughout the entire software development lifecycle with QA team members being involved a all stages. A Lead OA specialist is assigned at the commencement of each project and is involved into initial business analysis and fecuirements specification. Such a simultaneous interaction of our development and QA teams provides for a better understanding of the project scope and the client's business objectives. A typical CA reevele al PruthaTek includes the following phases:",
+        features: [{
+            featureTitle: "Initiation and Planning",
+            featureDesc: "Project specifiaction analysis,test plan elaboration and team assignment"
+        },
+        {
+            featureTitle: "Iteration Audits",
+            featureDesc: "Ongoing testing of intermediate iteration builds"
+        },
+        {
+            featureTitle: "First Review",
+            featureDesc: "Initial testing of first development deliverables.refining the test plan and test items (if necessary)."
+        },
+        {
+            featureTitle: "Final verification and Validation",
+            featureDesc: "Final Product testing to ensure bespoke quality and readlines for deployement."
+        },
+        ]
+    }
     return (
         <>
             {/* Quality Management Top Components */}
@@ -15,21 +40,9 @@ function QualityManagement(props) {
                 <h1 className="qulty-mngmnt-title">Quality Management</h1>
                 <p className="qulty-desc">PruthaTek has put in place a Quality Management System(QMS) comprising a complex set of engineering and managerial activities that ensure bespoke quality of delivered  software throughout the entire workflow.</p>
             </div>
-            <div className="flex-container margin">
-                <div className="company_people-img-cont" >
-                    <div className="shadow"></div>
-                    <div className="company_people-img">
-                        <img src={companyPeople} alt="company_people" />
-                    </div>
-                </div>
-                <div className="QMA-tasks">
-                    <h2>QMS TASKS &amp; OBJECTIVES</h2>
-                    <p>Elaboration and Implementation of procedures and regulations for software development process based on industrial standards  and besst practices.</p>
-                    <p>Product lifecycle monitoring to ensure compliance with established processes and guidlines.</p>
-                    <p>Product Quality verification and validation to ensure that it complies with clients business need and expectations.</p>
-                    <p>Establishment of an effective collaboration between all project team members.</p>
-                </div>
-            </div>
+
+            <MainInfo data={mainInfoData} />
+
             {/* Comprehensive Approach to Quality */}
             <h2 className="Comprehensive-title">Comprehensive Approach To Quality</h2>
             <div className="flex-container margin-cont">
@@ -40,33 +53,7 @@ function QualityManagement(props) {
                     <CommonCard data={item} />
                 ))}
             </div>
-            <div className="qulaity-mng-ending">
-                <h2 className="title">Qa That is Weaved into The Devel Opment Lifecycle</h2>
-                <p className="qulty-desc">Pruthatek performs quality assurance throughout the entire software development lifecycle with QA team members being involved a all stages. A Lead OA specialist is assigned at the commencement of each project and is involved into initial business analysis and fecuirements specification. Such a simultaneous interaction of our development and QA teams provides for a better understanding of the project scope and the client's business objectives. A typical CA reevele al PruthaTek includes the following phases:</p>
-                <div className="qulaity-mng-ending-flex">
-                    <div className="image-cont">
-                        <img src={Pic} alt="pic" />
-                    </div>
-                    <div className="qulaity-mng-ending-desc">
-                        <div className="individual-desc">
-                            <p><BsFillCaretRightFill />Initiation and Planning</p>
-                            <p>Project specifiaction analysis,test plan elaboration and team assignment</p>
-                        </div>
-                        <div className="individual-desc">
-                            <p><BsFillCaretRightFill />Iteration Audits</p>
-                            <p>Ongoing testing of intermediate iteration builds</p>
-                        </div>
-                        <div className="individual-desc">
-                            <p><BsFillCaretRightFill />First Review</p>
-                            <p>Initial testing of first development deliverables.refining the test plan and test items (if necessary).</p>
-                        </div>
-                        <div className="individual-desc">
-                            <p><BsFillCaretRightFill />Final verification and Validation</p>
-                            <p>Final Product testing to ensure bespoke quality and readlines for deployement.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <EndingInfo data={FootInfo} />
         </>
     );
 }
