@@ -1,0 +1,22 @@
+[
+    {
+        "imgPath" :"./../requireImages/CardImg.png",
+        "title" : "Infrastructure",
+        "desc" : "Our dedicated IT department is responsible for keeping clients informed about all significant events concerning the functioning of the information infrastructure on a 24x7 basis via Email2SMS-enabled mobile phones."
+    },
+    {
+        "imgPath" :"./../requireImages/CardImg.png",
+        "title" : "Computing Environment",
+        "desc" : "Our servers are built on standard operating systems and security fixes are uniformly deployed to the company's entire infrastructure. This homogeneous environment is constantly monitored for modifications."
+    },
+    {
+        "imgPath" :"./../requireImages/CardImg.png",
+        "title" : "Network Services Reliability",
+        "desc" : "Failover capabilities are implemented for main network services, such as development, mail, DNS, internet access, and active directory servers. Mail Server backup is performed via two backup servers, which ensures mail service retention and stability."
+    },
+    {
+        "imgPath" :"./../requireImages/CardImg.png",
+        "title" : "Additional Capacities",
+        "desc" : "For development purposes, we utilize virtualization technology, which enables us to build a separate operational environment for each project and thus increase resource allocation flexibility and effectiveness."
+    }
+]

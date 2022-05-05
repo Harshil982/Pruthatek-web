@@ -11,9 +11,9 @@ function MainInfo(props) {
                 </div>
             </div>
             <div className="QMA-tasks">
-                <h2>{props.data.title}</h2>
+                {props.data.title && <h2>{props.data.title}</h2>}
                 {props.data.Desc.map((item,index) => (
-                    <p key={index}>{item}</p>
+                    <p className="details" key={index}>{item}</p>
                 ))}
             </div>
         </div>

@@ -17,19 +17,23 @@ function QualityManagement(props) {
         titleDesc: "Pruthatek performs quality assurance throughout the entire software development lifecycle with QA team members being involved a all stages. A Lead OA specialist is assigned at the commencement of each project and is involved into initial business analysis and fecuirements specification. Such a simultaneous interaction of our development and QA teams provides for a better understanding of the project scope and the client's business objectives. A typical CA reevele al PruthaTek includes the following phases:",
         features: [{
             featureTitle: "Initiation and Planning",
-            featureDesc: "Project specifiaction analysis,test plan elaboration and team assignment"
+            featureDesc: "Project specifiaction analysis,test plan elaboration and team assignment",
+            color : "red"
         },
         {
             featureTitle: "Iteration Audits",
-            featureDesc: "Ongoing testing of intermediate iteration builds"
+            featureDesc: "Ongoing testing of intermediate iteration builds",
+            color : "brown"
         },
         {
             featureTitle: "First Review",
-            featureDesc: "Initial testing of first development deliverables.refining the test plan and test items (if necessary)."
+            featureDesc: "Initial testing of first development deliverables.refining the test plan and test items (if necessary).",
+            color : "blue"
         },
         {
             featureTitle: "Final verification and Validation",
-            featureDesc: "Final Product testing to ensure bespoke quality and readlines for deployement."
+            featureDesc: "Final Product testing to ensure bespoke quality and readlines for deployement.",
+            color : "green"
         },
         ]
     }
@@ -49,7 +53,7 @@ function QualityManagement(props) {
                 {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="bubble-1">
                     <path fill="#24A148" d="M55.6,-48.3C65.4,-32,62.1,-9.3,56.2,11.2C50.2,31.6,41.5,49.8,24.7,62C7.9,74.2,-16.9,80.4,-35.8,72.2C-54.8,63.9,-67.8,41.2,-73.4,16.8C-78.9,-7.6,-76.9,-33.7,-63.5,-50.9C-50,-68,-25,-76.2,-1.1,-75.4C22.9,-74.5,45.7,-64.6,55.6,-48.3Z" transform="translate(100 100)" />
                 </svg> */}
-                {data.map((item, index) => (
+                {data.slice(0,3).map((item, index) => (
                     <CommonCard data={item} />
                 ))}
             </div>

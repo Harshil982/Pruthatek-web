@@ -7,11 +7,11 @@
     {
         "imgPath" :"./../requireImages/CardImg.png",
         "title" : "Quality Assurance",
-        "desc" :"Terms are isolated  across different locations.Some teams may not be using Agile."
+        "desc" :"Cross-functional Scrum teams are isolated across locations and integrated by a Scrum-of-Scrums that meets regularly across locations."
     },
     {
         "imgPath" :"./../requireImages/CardImg.png",
         "title" : "Quality Control",
-        "desc" :"Terms are isolated  across different locations.Some teams may not be using Agile."
+        "desc" :"Scrum team members are distributed across locations."
     }
 ]

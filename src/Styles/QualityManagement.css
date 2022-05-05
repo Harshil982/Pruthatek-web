@@ -11,7 +11,7 @@
 }
 .qulty-desc
 {
-    width: 75vw;
+    width: 65vw;
     text-align: center;
     margin: 1.3vw auto;
     color: rgb(56, 48, 48);
@@ -28,37 +28,38 @@
     flex-direction: row;
     flex-wrap: nowrap;
     position: relative;
+    column-gap: 3vw;
 }
 .company_people-img-cont
 {
     height: 17vw;
     width: 17vw;
-    padding: 2vw;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.15);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    border-radius: 2vw;
-    z-index: 10;
 }
-.shadow
+.company_people-img-cont .shadow
 {
     height: 17vw;
     width: 17vw;
     padding: 2vw;
-    border-radius: 2vw;
+    border-radius: 4vw;
+    position: absolute;
     top: 8vw;
     left: 10vw;
-    background-color: red;
-    position: absolute;
-    z-index: -1;
+    background: linear-gradient(rgb(175, 187, 255), rgb(238, 202, 255));
+    z-index: -100;
 }
 .company_people-img
 {
     height: 17vw;
     width: 17vw;
+    padding: 2vw;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba( 255, 255, 255, 0.8 );
+    border-radius: 4vw;
+    z-index: 10;
 }
 .company_people-img img
 {
@@ -83,7 +84,7 @@
 }
 .margin-cont
 {
-    margin: 5vw 2vw;
+    margin: 5vw 4vw;
 }
 /* Comprehensive Approach */
 .Comprehensive-title
@@ -134,7 +135,7 @@
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    border-radius: 15px;
+    border-radius: 25px;
 }
 .qulaity-mng-ending-flex .image-cont img
 {
@@ -154,7 +155,7 @@
 .qulaity-mng-ending-desc .individual-desc p:last-child
 {
     margin-top: 1.2vw;
-    margin-left: 1vw;
+    margin-left: 1.7vw;
     width: 25vw;
     margin-right: 10vw;
 }
@@ -251,6 +252,7 @@
     {
         height: 29vw;
         width: 29vw;
+        padding: 2.6vw;
     }
     .shadow
     {
@@ -301,5 +303,12 @@
     {
         width: 72vw;
         margin-left: 2.4vw;
+    }
+    .company_people-img-cont .shadow
+    {
+        height: 29vw;
+        width: 29vw;
+        top: 15vw;
+        left: 15vw;
     }
 }

@@ -9,6 +9,15 @@
     padding-bottom: 26vw;
     text-transform: capitalize;
 }
+.engagement-models .details
+{
+    margin-top: 10vw;
+    /* text-align: center; */
+}
+.engagement-models .Comprehensive-title
+{
+    margin-top: 14vw;
+}
 .pruthatek-FTM
 {
     width: 100%;

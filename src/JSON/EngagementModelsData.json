@@ -1,0 +1,17 @@
+[
+    {
+        "imgPath": "./../requireImages/CardImg.png",
+        "title": "Project-Based Engagement",
+        "desc": "We recommend project-based engagement model for those who have a one-off/pilot project with well-defined requirements and deliverables. Employing this engagement model you'll have your project executed by a full-fledged team at Pruthalek."
+    },
+    {
+        "imgPath": "./../requireImages/CardImg.png",
+        "title": "Dedicated Developement Team",
+        "desc": "We offer dedicated team services to extend your in-house development resources. We complete dedicated teams with the required amount of team members, project managers, necessary equipment and infrastructure based on your requirements."
+    },
+    {
+        "imgPath": "./../requireImages/CardImg.png",
+        "title": "SLA-Based Approach",
+        "desc": "The SLA-driven model is recommended for long-term projects with clearly agreed constraints and requirements. As per terms and conditions decided between you and Iflexion, we take tull responsibility for the complete service management as well as the agreed SLAS."
+    }
+]
