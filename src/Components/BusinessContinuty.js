@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './../Styles/QualityManagement.css'
 import './../Styles/BusinessContinuty.css'
 import CommonCard from './CommonCard';
